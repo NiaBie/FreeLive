@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Company>Project AZUSA</Company>
+    <Copyright>Copyright © Project AZUSA 2018</Copyright>
+    <Version>0.1.0</Version>
+    <Description>Managed L2D Tool Lib</Description>
+    <PackageTags></PackageTags>
+    <RepositoryUrl>https://github.com/UlyssesWu/FreeLive</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/UlyssesWu/FreeLive</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/UlyssesWu/FreeLive/blob/master/FreeLive/FreeLive.LICENSE.txt</PackageLicenseUrl>
+    <Authors>UlyssesWu</Authors>
+    <PackageReleaseNotes>by Ulysses from Project AZUSA</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Be.IO" Version="1.0.0-CI00003" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>
